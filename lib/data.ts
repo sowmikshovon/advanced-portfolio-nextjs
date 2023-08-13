@@ -2,13 +2,20 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
-import web7 from "../public/web7.png";
+// import web1 from "../public/web1.png";
+// import web2 from "../public/web2.png";
+// import web3 from "../public/web3.png";
+// import web4 from "../public/web4.png";
+// import web5 from "../public/web5.png";
+// import web6 from "../public/web6.png";
+// import web7 from "../public/web7.png";
+import museumofcandyImg from "@/public/museumofcandy.png";
+import gptthreeImg from "@/public/gptthree.png";
+import gerichtImg from "@/public/gericht.png";
+import spotifycloneImg from "@/public/spotifyclone.png";
+import terportImg from "@/public/terport.png";
+import portvoneImg from "@/public/portvone.png";
+import advportImg from "@/public/advport.png";
 
 export const links = [
   {
@@ -85,7 +92,7 @@ export const projectsData = [
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies. (Click image for demo)",
     tags: ["HTML", "CSS", "gh-pages"],
-    imageUrl: web1,
+    imageUrl: museumofcandyImg,
     url: "https://sowmikshovon.github.io/Museum-of-Candy/",
   },
   {
@@ -93,7 +100,7 @@ export const projectsData = [
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination. (Click image for demo)",
     tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
-    imageUrl: web2,
+    imageUrl: gptthreeImg,
     url: "https://sowmikshovon.github.io/gpt3_react/",
   },
   {
@@ -101,7 +108,7 @@ export const projectsData = [
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits. (Click image for demo)",
     tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
-    imageUrl: web3,
+    imageUrl: gerichtImg,
     url: "https://sowmikshovon.github.io/restrurant_react/",
   },
   {
@@ -119,7 +126,7 @@ export const projectsData = [
       "SupaBase",
       "Vercel",
     ],
-    imageUrl: web4,
+    imageUrl: spotifycloneImg,
     url: "https://spotify-clone-2-omega.vercel.app/",
   },
   {
@@ -127,7 +134,7 @@ export const projectsData = [
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits. (Click image for demo)",
     tags: ["JavaScript", "HTML", "CSS", "gh-page"],
-    imageUrl: web5,
+    imageUrl: terportImg,
     url: "https://sowmikshovon.github.io/portfolio_terminal/",
   },
   {
@@ -135,7 +142,7 @@ export const projectsData = [
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits. (Click image for demo)",
     tags: ["React", "Next.js", "Tailwind", "Vercel"],
-    imageUrl: web6,
+    imageUrl: portvoneImg,
     url: "https://sowmik-portfolio-v1.vercel.app/",
   },
   {
@@ -152,7 +159,7 @@ export const projectsData = [
       "Resend",
       "Vercel",
     ],
-    imageUrl: web7,
+    imageUrl: advportImg,
     url: "",
   },
 ] as const;
