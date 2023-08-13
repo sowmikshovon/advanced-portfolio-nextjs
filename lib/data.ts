@@ -2,13 +2,13 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import web1 from "@/public/web1.png";
-import web2 from "@/public/web2.png";
-import web3 from "@/public/web3.png";
-import web4 from "@/public/web4.png";
-import web5 from "@/public/web5.png";
-import web6 from "@/public/web6.png";
-import web7 from "@/public/web7.png";
+import web1 from "../public/web1.png";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
+import web6 from "../public/web6.png";
+import web7 from "../public/web7.png";
 
 export const links = [
   {
