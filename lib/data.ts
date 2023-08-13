@@ -160,7 +160,7 @@ export const projectsData = [
       "Vercel",
     ],
     imageUrl: advportImg,
-    url: "",
+    url: "#",
   },
 ] as const;
 
