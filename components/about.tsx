@@ -36,9 +36,9 @@ export default function About() {
         developer.
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy traveling,
-        watching youtube, movies, series, and photography. I also enjoy{" "}
-        <span className="font-medium">researching new things</span> that I
+        <span className="italic">When I&apos;m not coding</span>, I enjoy
+        traveling, watching youtube, movies, series, and photography. I also
+        enjoy <span className="font-medium">researching new things</span> that I
         happened to come upon while watching something. I am currently learning
         about{" "}
         <span className="font-medium">space exploration🚀 and watches⌚</span>.
