@@ -130,8 +130,6 @@ export const projectsData = [
       "Redux",
       "PostgreSQL",
       "Tailwind",
-      "Stripe",
-      "SupaBase",
       "Vercel",
     ],
     imageUrl: spotifycloneImg,
