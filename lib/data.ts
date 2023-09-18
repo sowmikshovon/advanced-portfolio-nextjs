@@ -98,7 +98,7 @@ export const projectsData = [
   {
     title: "Museum Of Candy",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies. (Click image for demo)",
+      "A simple HTML and CSS project developed to practice basic web design principles. (Click image for demo)",
     tags: ["HTML", "CSS", "gh-pages"],
     imageUrl: museumofcandyImg,
     url: "https://sowmikshovon.github.io/Museum-of-Candy/",
@@ -106,7 +106,7 @@ export const projectsData = [
   {
     title: "Gpt-3",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination. (Click image for demo)",
+      "First intro to React and some advanced HTML and CSS practice. Also converting figma design to resposive webpage. (Click image for demo)",
     tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
     imageUrl: gptthreeImg,
     url: "https://sowmikshovon.github.io/gpt3_react/",
@@ -114,7 +114,7 @@ export const projectsData = [
   {
     title: "Gericht",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits. (Click image for demo)",
+      "Advanced reuseable components and more advanced figma design conversion with more advanced HTML and CSS (Click image for demo)",
     tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
     imageUrl: gerichtImg,
     url: "https://sowmikshovon.github.io/restrurant_react/",
@@ -122,7 +122,7 @@ export const projectsData = [
   {
     title: "Spotify-clone",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits. (Click image for demo)",
+      "A full stack music playing application with dedicated signup, payment and upload feature. First time using Next.JS, tailwind and TypeScript. (Click image for demo)",
     tags: [
       "React",
       "Next.js",
@@ -130,6 +130,8 @@ export const projectsData = [
       "Redux",
       "PostgreSQL",
       "Tailwind",
+      "Stripe",
+      "Supabase",
       "Vercel",
     ],
     imageUrl: spotifycloneImg,
@@ -138,7 +140,7 @@ export const projectsData = [
   {
     title: "Terminal Portfolio",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits. (Click image for demo)",
+      "A attempt to create linux bash inspired portfolio to showcase developed projects. Simple JS, HTML and CSS was used. (Click image for demo)",
     tags: ["JavaScript", "HTML", "CSS", "gh-page"],
     imageUrl: terportImg,
     url: "https://sowmikshovon.github.io/portfolio_terminal/",
@@ -146,7 +148,7 @@ export const projectsData = [
   {
     title: "Portfolio-V1",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits. (Click image for demo)",
+      "1st iteration of a fullfledged portfolio website. Single page with manual dark mode control. (Click image for demo)",
     tags: ["React", "Next.js", "Tailwind", "Vercel"],
     imageUrl: portvoneImg,
     url: "https://sowmik-portfolio-v1.vercel.app/",
@@ -154,7 +156,7 @@ export const projectsData = [
   {
     title: "Advanced Portfolio",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits. (Click image for demo)",
+      "Current portfoilio website with automatic darkmode option. Using technologies like framer motion, React email, resend for the first time.",
     tags: [
       "React",
       "Next.js",
