@@ -65,7 +65,7 @@ export const educationData = [
     title: "BSc",
     location: "BRAC University",
     description:
-      "I completed my Bachelor in Science in Computer Science from BRAC University in 2022.",
+      "I completed my Bachelor of Science (BSc) in Computer Science (CS) from BRAC University in 2022.",
     icon: React.createElement(LuGraduationCap),
     date: " 2017-2022 ",
   },
@@ -76,6 +76,14 @@ export const educationData = [
       "After graduation I took some time to learn more skills by developing some personal projects.",
     icon: React.createElement(FaReact),
     date: " 2022-2023 ",
+  },
+  {
+    title: "PMSCS",
+    location: "Jahangirnagar University",
+    description:
+      "I am currently pursuing Professional Masters of Science in Computer Science (PMSCS) from Jahangirnagar University",
+    icon: React.createElement(LuGraduationCap),
+    date: " 2023-present ",
   },
   {
     title: "Looking for a Job",
@@ -177,6 +185,7 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
+  "Bootstap",
   "SCSS",
   "MongoDB",
   "Express",
@@ -188,5 +197,5 @@ export const skillsData = [
   "Bash",
   "Docker",
   "Kubernetes",
-  "ASW",
+  "AWS",
 ] as const;
