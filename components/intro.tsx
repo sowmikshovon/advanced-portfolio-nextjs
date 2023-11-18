@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import fear from "../public/fear.jpg";
+import image1 from "../public/Untitled-3.jpg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -32,10 +32,10 @@ export default function Intro() {
             }}
           >
             <Image
-              src={fear}
+              src={image1}
               alt="Sowmik Portrait"
               priority={true}
-              className="h-[8rem] w-[8rem] rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-[11rem] w-[9rem] rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
           <motion.span
@@ -62,7 +62,10 @@ export default function Intro() {
         I&apos;m a <span className="font-bold">Software developer</span> just{" "}
         <span className="font-bold">finished Graduation</span> and looking for a{" "}
         <span className="font-bold">job</span>. I enjoy building{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="italic">
+          websites, web applications, android applications and automate
+        </span>
+        . My focus is{" "}
         <span className="underline">
           Software development, Web development,and Devops
         </span>
@@ -91,7 +94,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition borderBlack dark:bg-white/10"
-          href="/Sowmik_Shovon_Karmakar_Resume.pdf"
+          href="/CV_2.pdf"
           download
         >
           Download CV{" "}

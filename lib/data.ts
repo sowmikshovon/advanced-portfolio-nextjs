@@ -2,13 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// import web1 from "../public/web1.png";
-// import web2 from "../public/web2.png";
-// import web3 from "../public/web3.png";
-// import web4 from "../public/web4.png";
-// import web5 from "../public/web5.png";
-// import web6 from "../public/web6.png";
-// import web7 from "../public/web7.png";
 import museumofcandyImg from "@/public/museumofcandy.png";
 import gptthreeImg from "@/public/gptthree.png";
 import gerichtImg from "@/public/gericht.png";
@@ -98,7 +91,7 @@ export const projectsData = [
   {
     title: "Museum Of Candy",
     description:
-      "A simple HTML and CSS project developed to practice basic web design principles. (Click image for demo)",
+      "A simple HTML and CSS project developed to practice basic web design principles.",
     tags: ["HTML", "CSS", "gh-pages"],
     imageUrl: museumofcandyImg,
     url: "https://sowmikshovon.github.io/Museum-of-Candy/",
@@ -106,7 +99,7 @@ export const projectsData = [
   {
     title: "Gpt-3",
     description:
-      "First intro to React and some advanced HTML and CSS practice. Also converting figma design to resposive webpage. (Click image for demo)",
+      "First intro to React and some advanced HTML and CSS practice. Also converting figma design to resposive webpage.",
     tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
     imageUrl: gptthreeImg,
     url: "https://sowmikshovon.github.io/gpt3_react/",
@@ -114,7 +107,7 @@ export const projectsData = [
   {
     title: "Gericht",
     description:
-      "Advanced reuseable components and more advanced figma design conversion with more advanced HTML and CSS (Click image for demo)",
+      "Advanced reuseable components and more advanced figma design conversion with more advanced HTML and CSS",
     tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
     imageUrl: gerichtImg,
     url: "https://sowmikshovon.github.io/restrurant_react/",
@@ -122,7 +115,7 @@ export const projectsData = [
   {
     title: "Spotify-clone",
     description:
-      "A full stack music playing application with dedicated signup, payment and upload feature. First time using Next.JS, tailwind and TypeScript. (Click image for demo)",
+      "A full stack music playing application with dedicated signup, payment and upload feature. First time using Next.JS, tailwind and TypeScript.",
     tags: [
       "React",
       "Next.js",
@@ -140,7 +133,7 @@ export const projectsData = [
   {
     title: "Terminal Portfolio",
     description:
-      "A attempt to create linux bash inspired portfolio to showcase developed projects. Simple JS, HTML and CSS was used. (Click image for demo)",
+      "A attempt to create linux bash inspired portfolio to showcase developed projects. Simple JS, HTML and CSS was used.",
     tags: ["JavaScript", "HTML", "CSS", "gh-page"],
     imageUrl: terportImg,
     url: "https://sowmikshovon.github.io/portfolio_terminal/",
@@ -148,7 +141,7 @@ export const projectsData = [
   {
     title: "Portfolio-V1",
     description:
-      "1st iteration of a fullfledged portfolio website. Single page with manual dark mode control. (Click image for demo)",
+      "1st iteration of a fullfledged portfolio website. Single page with manual dark mode control.",
     tags: ["React", "Next.js", "Tailwind", "Vercel"],
     imageUrl: portvoneImg,
     url: "https://sowmik-portfolio-v1.vercel.app/",
