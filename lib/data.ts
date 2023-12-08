@@ -9,6 +9,7 @@ import spotifycloneImg from "@/public/spotifyclone.png";
 import terportImg from "@/public/terport.png";
 import portvoneImg from "@/public/portvone.png";
 import advportImg from "@/public/advport.png";
+import animevault from "@/public/anime_vault.png";
 
 export const links = [
   {
@@ -162,6 +163,22 @@ export const projectsData = [
     ],
     imageUrl: advportImg,
     url: "#",
+  },
+  {
+    title: "Anime Vault",
+    description:
+      "A light single page webpage designed with React, NextJS, Tailwind, TypeScript, Framer-Motion. The page scrolls infinitely and fetches data from an api",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Framer-motion",
+      "Server-Action",
+      "Vercel",
+    ],
+    imageUrl: animevault,
+    url: "https://anime-vault-peach.vercel.app/",
   },
 ] as const;
 
