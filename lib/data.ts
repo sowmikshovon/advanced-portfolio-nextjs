@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import museumofcandyImg from "@/public/museumofcandy.png";
+import DIceGameDOM from "@/public/DIceGameDOM.png";
 import gptthreeImg from "@/public/gptthree.png";
 import gerichtImg from "@/public/gericht.png";
 import spotifycloneImg from "@/public/spotifyclone.png";
@@ -77,14 +78,22 @@ export const educationData = [
     description:
       "I am currently pursuing Professional Masters of Science in Computer Science (PMSCS) from Jahangirnagar University",
     icon: React.createElement(LuGraduationCap),
-    date: " 2023-present ",
+    date: " 2023-2024 ",
   },
   {
-    title: "Looking for a Job",
+    title: "InternShip",
+    Location: "A1QA",
+    description:
+      "Finished Internship at A1QA and learnt about software testing, Selenium, BDD, JENKINS, etc.",
+    icon: React.createElement(CgWorkAlt),
+    date: " 2023-2024 ",
+  },
+  {
+    title: "Looking for a fulltime Job",
     location: "Dhaka, Bangladesh",
     description: "Right now I am actively looking for a job.",
     icon: React.createElement(CgWorkAlt),
-    date: " 2023-present ",
+    date: " 2024-present ",
   },
 ] as const;
 
@@ -96,6 +105,14 @@ export const projectsData = [
     tags: ["HTML", "CSS", "gh-pages"],
     imageUrl: museumofcandyImg,
     url: "https://sowmikshovon.github.io/Museum-of-Candy/",
+  },
+  {
+    title: "Dice_Game_DOM",
+    description:
+      "A simple dice game developed to practice DOM manipulation with JavaScript.",
+    tags: ["JavaScript", "HTML", "CSS", "gh-pages"],
+    imageUrl: DIceGameDOM,
+    url: "https://sowmikshovon.github.io/DIce_Game_DOM/",
   },
   {
     title: "Gpt-3",
@@ -195,6 +212,7 @@ export const skillsData = [
   "CI/CD",
   "Selenium",
   "Allure",
+  "BDD",
   "Junit",
   "TestNG",
   "Maven",
