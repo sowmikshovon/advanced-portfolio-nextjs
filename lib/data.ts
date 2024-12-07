@@ -82,7 +82,7 @@ export const educationData = [
   },
   {
     title: "InternShip",
-    Location: "A1QA",
+    location: "A1QA",
     description:
       "Finished Internship at A1QA and learnt about software testing, Selenium, BDD, JENKINS, etc.",
     icon: React.createElement(CgWorkAlt),
