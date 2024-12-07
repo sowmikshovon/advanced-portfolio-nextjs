@@ -29,10 +29,14 @@ export default function About() {
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core focus
-        is <span className="font-medium">Software development</span>. I am also
-        familiar with Web development, DevOps, and Software Quality Assurance. I
-        am always looking to learn new technologies. I am currently looking for
-        a <span className="font-medium">full-time position</span> as a software
+        is{" "}
+        <span className="font-medium">
+          DevOps, and Software Automation Test
+        </span>
+        . I am also familiar with Web development both Backend and frontend,
+        Android App Development, etc. I am always looking to learn new
+        technologies. I am currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
       <p>
