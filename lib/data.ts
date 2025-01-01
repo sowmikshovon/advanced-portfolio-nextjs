@@ -11,6 +11,8 @@ import terportImg from "@/public/terport.png";
 import portvoneImg from "@/public/portvone.png";
 import advportImg from "@/public/advport.png";
 import animevault from "@/public/anime_vault.png";
+import devops1 from "@/public/devops-pipeline.webp";
+import { url } from "inspector";
 
 export const links = [
   {
@@ -98,6 +100,24 @@ export const educationData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "DevOps-pipeline-1",
+    description:
+      "A semi intermediate level project to practice DevOps pipeline. This pipeline deploys a open source project to docker container using Jenkins, Aws, Docker etc.",
+    tags: [
+      "Github",
+      "Jenkins",
+      "SonarQube",
+      "Docker",
+      "AWS",
+      "DevOps",
+      "AgroCD",
+      "OWASP",
+      "Trivy",
+    ],
+    imageUrl: devops1,
+    url: "https://github.com/sowmikshovon/DevOps-pipeline-1",
+  },
   {
     title: "Museum Of Candy",
     description:
