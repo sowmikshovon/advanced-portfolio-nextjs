@@ -12,6 +12,7 @@ import portvoneImg from "@/public/portvone.png";
 import advportImg from "@/public/advport.png";
 import animevault from "@/public/anime_vault.png";
 import devops1 from "@/public/devops-pipeline.webp";
+import flutterapp from "@/public/parkingappiot.jpg";
 import { url } from "inspector";
 
 export const links = [
@@ -78,9 +79,9 @@ export const educationData = [
     title: "PMSCS",
     location: "Jahangirnagar University",
     description:
-      "I am currently pursuing Professional Masters of Science in Computer Science (PMSCS) from Jahangirnagar University",
+      "I completed my Masters of Science in Computer Science under PMSCS programm from Jahangirnagar University",
     icon: React.createElement(LuGraduationCap),
-    date: " 2023-2024 ",
+    date: " 2023-2025 ",
   },
   {
     title: "InternShip",
@@ -95,11 +96,30 @@ export const educationData = [
     location: "Dhaka, Bangladesh",
     description: "Right now I am actively looking for a job.",
     icon: React.createElement(CgWorkAlt),
-    date: " 2024-present ",
+    date: " 2025-present ",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Parking_manager_app_iot",
+    description:
+      "A comprehensive Flutter application for parking spot management with IoT device integration via Bluetooth communication. Created for an academic project defence.",
+    tags: [
+      "Github",
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "Bluetooth",
+      "IoT",
+      "Android",
+      "Arduino",
+      "QR Code",
+      "pdf",
+    ],
+    imageUrl: flutterapp,
+    url: "https://github.com/sowmikshovon/parking_manager_app_iot",
+  },
   {
     title: "DevOps-pipeline-1",
     description:
@@ -119,36 +139,21 @@ export const projectsData = [
     url: "https://github.com/sowmikshovon/DevOps-pipeline-1",
   },
   {
-    title: "Museum Of Candy",
+    title: "Advanced Portfolio",
     description:
-      "A simple HTML and CSS project developed to practice basic web design principles.",
-    tags: ["HTML", "CSS", "gh-pages"],
-    imageUrl: museumofcandyImg,
-    url: "https://sowmikshovon.github.io/Museum-of-Candy/",
-  },
-  {
-    title: "Dice_Game_DOM",
-    description:
-      "A simple dice game developed to practice DOM manipulation with JavaScript.",
-    tags: ["JavaScript", "HTML", "CSS", "gh-pages"],
-    imageUrl: DIceGameDOM,
-    url: "https://sowmikshovon.github.io/DIce_Game_DOM/",
-  },
-  {
-    title: "Gpt-3",
-    description:
-      "First intro to React and some advanced HTML and CSS practice. Also converting figma design to resposive webpage.",
-    tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
-    imageUrl: gptthreeImg,
-    url: "https://sowmikshovon.github.io/gpt3_react/",
-  },
-  {
-    title: "Gericht",
-    description:
-      "Advanced reuseable components and more advanced figma design conversion with more advanced HTML and CSS",
-    tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
-    imageUrl: gerichtImg,
-    url: "https://sowmikshovon.github.io/restrurant_react/",
+      "Current portfoilio website with automatic darkmode option. Using technologies like framer motion, React email, resend for the first time.",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Framer-motion",
+      "React Email",
+      "Resend",
+      "Vercel",
+    ],
+    imageUrl: advportImg,
+    url: "#",
   },
   {
     title: "Spotify-clone",
@@ -185,21 +190,36 @@ export const projectsData = [
     url: "https://sowmik-portfolio-v1.vercel.app/",
   },
   {
-    title: "Advanced Portfolio",
+    title: "Museum Of Candy",
     description:
-      "Current portfoilio website with automatic darkmode option. Using technologies like framer motion, React email, resend for the first time.",
-    tags: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Tailwind",
-      "Framer-motion",
-      "React Email",
-      "Resend",
-      "Vercel",
-    ],
-    imageUrl: advportImg,
-    url: "#",
+      "A simple HTML and CSS project developed to practice basic web design principles.",
+    tags: ["HTML", "CSS", "gh-pages"],
+    imageUrl: museumofcandyImg,
+    url: "https://sowmikshovon.github.io/Museum-of-Candy/",
+  },
+  {
+    title: "Dice_Game_DOM",
+    description:
+      "A simple dice game developed to practice DOM manipulation with JavaScript.",
+    tags: ["JavaScript", "HTML", "CSS", "gh-pages"],
+    imageUrl: DIceGameDOM,
+    url: "https://sowmikshovon.github.io/DIce_Game_DOM/",
+  },
+  {
+    title: "Gpt-3",
+    description:
+      "First intro to React and some advanced HTML and CSS practice. Also converting figma design to resposive webpage.",
+    tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
+    imageUrl: gptthreeImg,
+    url: "https://sowmikshovon.github.io/gpt3_react/",
+  },
+  {
+    title: "Gericht",
+    description:
+      "Advanced reuseable components and more advanced figma design conversion with more advanced HTML and CSS",
+    tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
+    imageUrl: gerichtImg,
+    url: "https://sowmikshovon.github.io/restrurant_react/",
   },
   {
     title: "Anime Vault",
@@ -237,6 +257,11 @@ export const skillsData = [
   "TestNG",
   "Maven",
   "AWS",
+  "Flutter",
+  "Dart",
+  "IoT",
+  "Arduino",
+  "Firebase",
   "JavaScript",
   "Node.js",
   "ExpressJS",
@@ -255,5 +280,5 @@ export const skillsData = [
   "MySQL",
   "PostgreSQL",
   "Framer Motion",
-  "Android Development",
+  "Android Studio",
 ] as const;
