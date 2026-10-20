@@ -1,11 +1,12 @@
 "use server";
 
 import { Resend } from "resend";
-import { validateString, validateEmail, getErrorMessage } from "@/lib/utils";
+import { validateString, validateEmail } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
 import React from "react";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const GENERIC_SEND_ERROR =
+  "Unable to send message right now. Please try again later or email me directly.";
 
 export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
@@ -22,26 +23,37 @@ export const sendEmail = async (formData: FormData) => {
     };
   }
 
-  let data;
   try {
-    data = await resend.emails.send({
+    // Created lazily: Resend v6 throws on construction if the API key is
+    // missing, which must not break the build when the env var is absent.
+    const resend = new Resend(process.env.RESEND_API_KEY);
+
+    // Resend v6 resolves with { data, error } instead of throwing on API errors.
+    const { data, error } = await resend.emails.send({
       from: "Contact Form<onboarding@resend.dev>",
       to: "sowmikmitv@gmail.com",
       subject: "Message from contact form of portfolio website",
-      reply_to: (senderEmail as string).trim(),
+      replyTo: (senderEmail as string).trim(),
       react: React.createElement(ContactFormEmail, {
         message: (message as string).trim(),
         senderEmail: (senderEmail as string).trim(),
       }),
     });
+
+    if (error) {
+      console.error("Error sending email:", error);
+      return {
+        error: GENERIC_SEND_ERROR,
+      };
+    }
+
+    return {
+      data,
+    };
   } catch (error: unknown) {
     console.error("Error sending email:", error);
     return {
-      error: "Unable to send message right now. Please try again later or email me directly.",
+      error: GENERIC_SEND_ERROR,
     };
   }
-
-  return {
-    data,
-  };
 };
