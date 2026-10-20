@@ -32,6 +32,9 @@ export default function ThemeContextProvider({
     }
   };
 
+  // The theme is read from localStorage/matchMedia after mount on purpose, so the
+  // server-rendered HTML and the first client render match (no hydration mismatch).
+  /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     const localTheme = window.localStorage.getItem("theme") as Theme | null;
     if (localTheme) {
@@ -45,6 +48,7 @@ export default function ThemeContextProvider({
       document.documentElement.classList.add("dark");
     }
   }, []);
+  /* eslint-enable react-hooks/set-state-in-effect */
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
