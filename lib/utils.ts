@@ -6,6 +6,14 @@ export const validateString = (value: unknown, maxLength: number) => {
   return true;
 };
 
+export const validateEmail = (value: unknown, maxLength = 320): boolean => {
+  if (!value || typeof value !== "string" || value.length > maxLength) {
+    return false;
+  }
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(value.trim());
+};
+
 export const getErrorMessage = (error: unknown): string => {
   let message: string;
   if (error instanceof Error) {

@@ -1,7 +1,7 @@
 "use server";
 
 import { Resend } from "resend";
-import { validateString, getErrorMessage } from "@/lib/utils";
+import { validateString, validateEmail, getErrorMessage } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
 import React from "react";
 
@@ -11,14 +11,14 @@ export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
 
-  if (!validateString(senderEmail, 500)) {
+  if (!validateEmail(senderEmail, 320)) {
     return {
-      error: "Invalid email address",
+      error: "Please enter a valid email address.",
     };
   }
   if (!validateString(message, 5000)) {
     return {
-      error: "Invalid message",
+      error: "Message must not be empty or exceed 5,000 characters.",
     };
   }
 
@@ -28,15 +28,16 @@ export const sendEmail = async (formData: FormData) => {
       from: "Contact Form<onboarding@resend.dev>",
       to: "sowmikmitv@gmail.com",
       subject: "Message from contact form of portfolio website",
-      reply_to: senderEmail as string,
+      reply_to: (senderEmail as string).trim(),
       react: React.createElement(ContactFormEmail, {
-        message: message as string,
-        senderEmail: senderEmail as string,
+        message: (message as string).trim(),
+        senderEmail: (senderEmail as string).trim(),
       }),
     });
   } catch (error: unknown) {
+    console.error("Error sending email:", error);
     return {
-      error: getErrorMessage(error),
+      error: "Unable to send message right now. Please try again later or email me directly.",
     };
   }
 
