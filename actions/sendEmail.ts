@@ -17,7 +17,7 @@ export const sendEmail = async (formData: FormData) => {
       error: "Please enter a valid email address.",
     };
   }
-  if (!validateString(message, 5000)) {
+  if (!validateString(message, 5000) || !(message as string).trim()) {
     return {
       error: "Message must not be empty or exceed 5,000 characters.",
     };

@@ -9,7 +9,6 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@react-email/components": "^1.0.12",
     "@react-email/render": "^2.1.1",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^22.20.5",
