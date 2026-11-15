@@ -2,18 +2,15 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import museumofcandyImg from "@/public/museumofcandy.png";
-import DIceGameDOM from "@/public/DIceGameDOM.png";
-import gptthreeImg from "@/public/gptthree.png";
-import gerichtImg from "@/public/gericht.png";
-import spotifycloneImg from "@/public/spotifyclone.png";
-import terportImg from "@/public/terport.png";
-import portvoneImg from "@/public/portvone.png";
-import advportImg from "@/public/advport.png";
-import animevault from "@/public/anime_vault.png";
+import azureTerraformAksImg from "@/public/azure-terraform-aks.png";
 import devops1 from "@/public/devops-pipeline.webp";
+import acquisitionsApiImg from "@/public/acquisitions-api-devops.png";
+import testAutomationQaImg from "@/public/test-automation-qa.png";
+import spotifycloneImg from "@/public/spotifyclone.png";
+import advportImg from "@/public/advport.png";
 import flutterapp from "@/public/parkingappiot.jpg";
-import { url } from "inspector";
+import animevault from "@/public/anime_vault.png";
+import terportImg from "@/public/terport.png";
 
 export const links = [
   {
@@ -102,183 +99,159 @@ export const educationData = [
 
 export const projectsData = [
   {
-    title: "Parking_manager_app_iot",
+    title: "Azure Cloud Platform IaC",
     description:
-      "A comprehensive Flutter application for parking spot management with IoT device integration via Bluetooth communication. Created for an academic project defence.",
-    tags: [
-      "Github",
-      "Flutter",
-      "Dart",
-      "Firebase",
-      "Bluetooth",
-      "IoT",
-      "Android",
-      "Arduino",
-      "QR Code",
-      "pdf",
-    ],
-    imageUrl: flutterapp,
-    url: "https://github.com/sowmikshovon/parking_manager_app_iot",
+      "Terraform blueprint provisioning Azure AKS, ACR, and Resource Groups in North Europe with OIDC, Calico policies, and Trivy CI governance.",
+    tags: ["Terraform", "Azure", "AKS", "GitHub Actions", "Trivy", "IaC"],
+    imageUrl: azureTerraformAksImg,
+    url: "https://github.com/sowmikshovon/azure-cloud-platform-terraform",
   },
   {
-    title: "DevOps-pipeline-1",
+    title: "DevOps CI/CD Pipeline",
     description:
-      "A semi intermediate level project to practice DevOps pipeline. This pipeline deploys a open source project to docker container using Jenkins, Aws, Docker etc.",
+      "Multi-stage DevSecOps pipeline deploying containerized apps to Kubernetes with Jenkins, AWS, Docker, ArgoCD, SonarQube, OWASP, and Trivy.",
     tags: [
-      "Github",
       "Jenkins",
-      "SonarQube",
-      "Docker",
       "AWS",
-      "DevOps",
-      "AgroCD",
-      "OWASP",
+      "Docker",
+      "Kubernetes",
+      "ArgoCD",
+      "SonarQube",
       "Trivy",
     ],
     imageUrl: devops1,
     url: "https://github.com/sowmikshovon/DevOps-pipeline-1",
   },
   {
-    title: "Advanced Portfolio",
+    title: "Acquisitions API & CI/CD",
     description:
-      "Current portfoilio website with automatic darkmode option. Using technologies like framer motion, React email, resend for the first time.",
+      "Containerized Node.js Express API with PostgreSQL, Drizzle ORM, JWT/Arcjet security, Jest suites, and multi-arch Docker GitHub Actions.",
     tags: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Tailwind",
-      "Framer-motion",
-      "React Email",
-      "Resend",
-      "Vercel",
+      "Node.js",
+      "PostgreSQL",
+      "Docker",
+      "GitHub Actions",
+      "Jest",
+      "Express",
     ],
-    imageUrl: advportImg,
-    url: "#",
+    imageUrl: acquisitionsApiImg,
+    url: "https://github.com/sowmikshovon/acquisitions",
   },
   {
-    title: "Spotify-clone",
+    title: "Automated QA & Test Suite",
     description:
-      "A full stack music playing application with dedicated signup, payment and upload feature. First time using Next.JS, tailwind and TypeScript.",
+      "Java & Maven test automation framework using Selenium WebDriver, Page Object Model, TestNG, and Allure Reports, plus BDD & JUnit suites.",
+    tags: ["Java", "Selenium", "BDD", "TestNG", "JUnit", "Allure", "Maven"],
+    imageUrl: testAutomationQaImg,
+    url: "https://github.com/sowmikshovon/test_automation",
+  },
+  {
+    title: "Spotify Full-Stack Clone",
+    description:
+      "Full-stack music streaming platform with Next.js, TypeScript, Supabase PostgreSQL auth & storage, Stripe subscriptions, and Tailwind CSS.",
     tags: [
-      "React",
-      "Next.js",
       "TypeScript",
-      "Redux",
-      "PostgreSQL",
-      "Tailwind",
-      "Stripe",
+      "Next.js",
+      "React",
       "Supabase",
-      "Vercel",
+      "PostgreSQL",
+      "Stripe",
     ],
     imageUrl: spotifycloneImg,
-    url: "https://spotify-clone-2-omega.vercel.app/",
+    url: "https://spotify-clone-seven-tau.vercel.app",
   },
   {
-    title: "Terminal Portfolio",
+    title: "Advanced Portfolio",
     description:
-      "A attempt to create linux bash inspired portfolio to showcase developed projects. Simple JS, HTML and CSS was used.",
-    tags: ["JavaScript", "HTML", "CSS", "gh-page"],
-    imageUrl: terportImg,
-    url: "https://sowmikshovon.github.io/portfolio_terminal/",
+      "TypeScript portfolio built with Next.js 16, React 19, Tailwind CSS v4, Framer Motion, React Email, Resend, and automated CI checks.",
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Resend",
+    ],
+    imageUrl: advportImg,
+    url: "https://github.com/sowmikshovon/advanced-portfolio-nextjs",
   },
   {
-    title: "Portfolio-V1",
+    title: "IoT Parking Manager",
     description:
-      "1st iteration of a fullfledged portfolio website. Single page with manual dark mode control.",
-    tags: ["React", "Next.js", "Tailwind", "Vercel"],
-    imageUrl: portvoneImg,
-    url: "https://sowmik-portfolio-v1.vercel.app/",
-  },
-  {
-    title: "Museum Of Candy",
-    description:
-      "A simple HTML and CSS project developed to practice basic web design principles.",
-    tags: ["HTML", "CSS", "gh-pages"],
-    imageUrl: museumofcandyImg,
-    url: "https://sowmikshovon.github.io/Museum-of-Candy/",
-  },
-  {
-    title: "Dice_Game_DOM",
-    description:
-      "A simple dice game developed to practice DOM manipulation with JavaScript.",
-    tags: ["JavaScript", "HTML", "CSS", "gh-pages"],
-    imageUrl: DIceGameDOM,
-    url: "https://sowmikshovon.github.io/DIce_Game_DOM/",
-  },
-  {
-    title: "Gpt-3",
-    description:
-      "First intro to React and some advanced HTML and CSS practice. Also converting figma design to resposive webpage.",
-    tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
-    imageUrl: gptthreeImg,
-    url: "https://sowmikshovon.github.io/gpt3_react/",
-  },
-  {
-    title: "Gericht",
-    description:
-      "Advanced reuseable components and more advanced figma design conversion with more advanced HTML and CSS",
-    tags: ["React", "CSS", "HTML", "Figma", "gh-pages"],
-    imageUrl: gerichtImg,
-    url: "https://sowmikshovon.github.io/restrurant_react/",
+      "Flutter & Firebase app for smart parking spot booking with Google Maps, QR pass PDFs, and Bluetooth Serial control for Arduino/ESP32.",
+    tags: ["Flutter", "Dart", "IoT", "Firebase", "Bluetooth", "Arduino"],
+    imageUrl: flutterapp,
+    url: "https://github.com/sowmikshovon/parking_manager_app_iot",
   },
   {
     title: "Anime Vault",
     description:
-      "A light single page webpage designed with React, NextJS, Tailwind, TypeScript, Framer-Motion. The page scrolls infinitely and fetches data from an api",
+      "Server-rendered Next.js 14 app using Server Actions, infinite-scroll API fetching, TypeScript, Tailwind CSS, and Framer Motion.",
     tags: [
-      "React",
-      "Next.js",
       "TypeScript",
-      "Tailwind",
-      "Framer-motion",
-      "Server-Action",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
       "Vercel",
     ],
     imageUrl: animevault,
     url: "https://anime-vault-peach.vercel.app/",
   },
+  {
+    title: "Terminal Portfolio",
+    description:
+      "Linux Bash-inspired CLI resume and project explorer built with JavaScript, HTML, and CSS for terminal-native navigation.",
+    tags: ["Linux", "Bash", "JavaScript", "HTML", "CSS"],
+    imageUrl: terportImg,
+    url: "https://sowmikshovon.github.io/portfolio_terminal/",
+  },
 ] as const;
 
 export const skillsData = [
-  "Java",
-  "Python",
-  "Linux",
-  "Bash",
-  "Git",
+  "Terraform",
+  "Azure",
+  "AKS",
+  "AWS",
   "Docker",
   "Kubernetes",
-  "Ansible",
+  "ArgoCD",
+  "GitHub Actions",
   "Jenkins",
   "CI/CD",
+  "Linux",
+  "Bash",
+  "Ansible",
+  "SonarQube",
+  "Trivy",
+  "OWASP",
+  "Git",
+  "Python",
+  "Java",
   "Selenium",
-  "Allure",
   "BDD",
-  "Junit",
   "TestNG",
+  "JUnit",
+  "Allure",
   "Maven",
-  "AWS",
+  "REST Assured",
+  "Jest",
+  "TypeScript",
+  "Next.js",
+  "React",
+  "Node.js",
+  "Express.js",
+  "JavaScript",
+  "Tailwind CSS",
+  "Bootstrap",
+  "Framer Motion",
+  "PostgreSQL",
+  "MongoDB",
+  "Supabase",
+  "MySQL",
   "Flutter",
   "Dart",
   "IoT",
-  "Arduino",
   "Firebase",
-  "JavaScript",
-  "Node.js",
-  "ExpressJS",
-  "HTML",
-  "CSS",
-  "JQuery",
-  "React",
-  "TypeScript",
-  "Next.js",
-  "Vite",
-  "Tailwind",
-  "Bootstap",
-  "SCSS",
-  "MongoDB",
-  "Redux",
-  "MySQL",
-  "PostgreSQL",
-  "Framer Motion",
-  "Android Studio",
+  "Arduino",
 ] as const;
