@@ -331,7 +331,9 @@ export const skillCategories = {
 } as const;
 
 export const cvConfig = {
-  externalUrl: process.env.NEXT_PUBLIC_CV_URL || "",
+  externalUrl:
+    process.env.NEXT_PUBLIC_CV_URL ||
+    "https://drive.google.com/file/d/10Eeuk0-Sefn8RYVn4oB3ggZg-BI24QRs/view?usp=drive_link",
   fallbackLocalPath: "/SowmikShovonKarmakarCV.pdf",
   downloadFilename: "Sowmik_Shovon_Karmakar_CV.pdf",
   lastUpdated: "November 2026",
