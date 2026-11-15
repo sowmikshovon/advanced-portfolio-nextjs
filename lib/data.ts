@@ -109,6 +109,7 @@ export const educationData = [
 export const projectsData = [
   {
     title: "Azure Cloud Platform IaC",
+    category: "Cloud & DevOps",
     description:
       "Terraform blueprint provisioning Azure AKS, ACR, and Resource Groups in North Europe with OIDC, Calico policies, and Trivy CI governance.",
     tags: ["Terraform", "Azure", "AKS", "GitHub Actions", "Trivy", "IaC"],
@@ -117,6 +118,7 @@ export const projectsData = [
   },
   {
     title: "DevOps CI/CD Pipeline",
+    category: "Cloud & DevOps",
     description:
       "Multi-stage DevSecOps pipeline deploying containerized apps to Kubernetes with Jenkins, AWS, Docker, ArgoCD, SonarQube, OWASP, and Trivy.",
     tags: [
@@ -133,6 +135,7 @@ export const projectsData = [
   },
   {
     title: "Acquisitions API & CI/CD",
+    category: "QA & Backend",
     description:
       "Containerized Node.js Express API with PostgreSQL, Drizzle ORM, JWT/Arcjet security, Jest suites, and multi-arch Docker GitHub Actions.",
     tags: [
@@ -148,6 +151,7 @@ export const projectsData = [
   },
   {
     title: "Automated QA & Test Suite",
+    category: "QA & Backend",
     description:
       "Java & Maven test automation framework using Selenium WebDriver, Page Object Model, TestNG, and Allure Reports, plus BDD & JUnit suites.",
     tags: ["Java", "Selenium", "BDD", "TestNG", "JUnit", "Allure", "Maven"],
@@ -156,6 +160,7 @@ export const projectsData = [
   },
   {
     title: "Spotify Full-Stack Clone",
+    category: "Full-Stack & IoT",
     description:
       "Full-stack music streaming platform with Next.js, TypeScript, Supabase PostgreSQL auth & storage, Stripe subscriptions, and Tailwind CSS.",
     tags: [
@@ -171,6 +176,7 @@ export const projectsData = [
   },
   {
     title: "Advanced Portfolio",
+    category: "Full-Stack & IoT",
     description:
       "TypeScript portfolio built with Next.js 16, React 19, Tailwind CSS v4, Framer Motion, React Email, Resend, and automated CI checks.",
     tags: [
@@ -186,6 +192,7 @@ export const projectsData = [
   },
   {
     title: "IoT Parking Manager",
+    category: "Full-Stack & IoT",
     description:
       "Flutter & Firebase app for smart parking spot booking with Google Maps, QR pass PDFs, and Bluetooth Serial control for Arduino/ESP32.",
     tags: ["Flutter", "Dart", "IoT", "Firebase", "Bluetooth", "Arduino"],
@@ -194,6 +201,7 @@ export const projectsData = [
   },
   {
     title: "Anime Vault",
+    category: "Full-Stack & IoT",
     description:
       "Server-rendered Next.js 14 app using Server Actions, infinite-scroll API fetching, TypeScript, Tailwind CSS, and Framer Motion.",
     tags: [
@@ -209,6 +217,7 @@ export const projectsData = [
   },
   {
     title: "Terminal Portfolio",
+    category: "Full-Stack & IoT",
     description:
       "Linux Bash-inspired CLI resume and project explorer built with JavaScript, HTML, and CSS for terminal-native navigation.",
     tags: ["Linux", "Bash", "JavaScript", "HTML", "CSS"],
@@ -264,3 +273,66 @@ export const skillsData = [
   "Firebase",
   "Arduino",
 ] as const;
+
+export const skillCategories = {
+  "Cloud & DevOps": [
+    "Terraform",
+    "Azure",
+    "AKS",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "ArgoCD",
+    "GitHub Actions",
+    "Jenkins",
+    "CI/CD",
+    "Linux",
+    "Bash",
+    "Ansible",
+    "SonarQube",
+    "Trivy",
+    "OWASP",
+    "Git",
+  ],
+  "QA & Test Automation": [
+    "Java",
+    "Python",
+    "Selenium",
+    "BDD",
+    "TestNG",
+    "JUnit",
+    "Allure",
+    "Maven",
+    "REST Assured",
+    "Jest",
+  ],
+  "Backend & Databases": [
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "MongoDB",
+    "Supabase",
+    "MySQL",
+    "Firebase",
+  ],
+  "Frontend & Product": [
+    "TypeScript",
+    "Next.js",
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Framer Motion",
+    "Flutter",
+    "Dart",
+    "IoT",
+    "Arduino",
+  ],
+} as const;
+
+export const cvConfig = {
+  externalUrl: process.env.NEXT_PUBLIC_CV_URL || "",
+  fallbackLocalPath: "/SowmikShovonKarmakarCV.pdf",
+  downloadFilename: "Sowmik_Shovon_Karmakar_CV.pdf",
+  lastUpdated: "November 2026",
+} as const;

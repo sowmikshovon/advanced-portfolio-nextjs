@@ -12,3 +12,25 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    padding-top: 0 !important;
+    margin: 0 !important;
+  }
+
+  body > header,
+  body > footer,
+  .no-print,
+  body > div[class*="-z-10"] {
+    display: none !important;
+  }
+}
