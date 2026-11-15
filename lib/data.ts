@@ -76,24 +76,33 @@ export const educationData = [
     title: "PMSCS",
     location: "Jahangirnagar University",
     description:
-      "I completed my Masters of Science in Computer Science under PMSCS programm from Jahangirnagar University",
+      "I completed my Master of Science in Computer Science under the PMSCS program from Jahangirnagar University.",
     icon: React.createElement(LuGraduationCap),
     date: " 2023-2025 ",
   },
   {
-    title: "InternShip",
+    title: "Internship",
     location: "A1QA",
     description:
-      "Finished Internship at A1QA and learnt about software testing, Selenium, BDD, JENKINS, etc.",
+      "Finished an internship at A1QA, gaining hands-on experience in software testing, Selenium, BDD, and Jenkins.",
     icon: React.createElement(CgWorkAlt),
     date: " 2023-2024 ",
   },
   {
+    title: "MSc in Software Product Management and Business",
+    location: "LUT University, Lahti Campus, Finland",
+    description:
+      "Currently pursuing a Master of Science (Technology) in Software Product Management and Business at LUT University, Lahti Campus, Finland.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Aug 2026 - Jul 2028",
+  },
+  {
     title: "Looking for a fulltime Job",
-    location: "Dhaka, Bangladesh",
-    description: "Right now I am actively looking for a job.",
+    location: "Lahti / Helsinki, Finland & Europe",
+    description:
+      "Actively seeking Software, DevOps, Cloud, and QA Automation roles in Finland and across Europe.",
     icon: React.createElement(CgWorkAlt),
-    date: " 2025-present ",
+    date: "2026 - Present",
   },
 ] as const;
 

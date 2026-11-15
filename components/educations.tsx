@@ -12,13 +12,17 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
 export default function Educations() {
-  const { ref } = useSectionInView("Education", 0.5);
+  const { ref } = useSectionInView("Education", 0.15);
   const { theme } = useTheme();
 
   return (
     <section ref={ref} id="education" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>Education Timeline</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <VerticalTimeline
+        lineColor={
+          theme === "light" ? "#e5e7eb" : "rgba(255, 255, 255, 0.2)"
+        }
+      >
         {educationData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement

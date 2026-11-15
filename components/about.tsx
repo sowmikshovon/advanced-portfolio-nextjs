@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("About", 0.5);
 
   return (
     <motion.section
@@ -19,33 +19,54 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I have had passion for <span className="font-medium">Programming</span>{" "}
-        for a very long time, that&apos;s why I pursued BSc in{" "}
-        <span className="font-medium">Computer Science (CS)</span> from{" "}
-        <span className="font-medium">BRAC University</span>. After completing
-        graduation, I started working on improving my{" "}
-        <span className="font-medium">skills</span> by developing some{" "}
-        <span className="font-medium">personal projects</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core focus
-        is{" "}
+        I am currently pursuing an{" "}
         <span className="font-medium">
-          DevOps, and Software Automation Test
+          MSc (Tech) in Software Product Management and Business at LUT
+          University (Lahti Campus, Finland, Aug 2026 - Jul 2028)
         </span>
-        . I am also familiar with Web development both Backend and frontend,
-        Android App Development, etc. I am always looking to learn new
-        technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        , building on my{" "}
+        <span className="font-medium">
+          MSc in Computer Science (PMSCS) at Jahangirnagar University
+        </span>
+        ,{" "}
+        <span className="font-medium">
+          BSc in Computer Science at BRAC University
+        </span>
+        , and{" "}
+        <span className="font-medium">
+          QA Automation experience at A1QA
+        </span>
+        . My work bridges software product strategy with hands-on engineering
+        across{" "}
+        <span className="font-medium">
+          Cloud and DevSecOps (Terraform, Azure AKS, AWS, Docker, Kubernetes,
+          ArgoCD, Jenkins, GitHub Actions)
+        </span>
+        ,{" "}
+        <span className="font-medium">
+          Test Automation (Java, Python, Selenium, BDD, TestNG, Allure)
+        </span>
+        , and{" "}
+        <span className="font-medium">
+          Full-Stack TypeScript development (Next.js, React, Node.js,
+          PostgreSQL)
+        </span>
+        .
       </p>
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy
-        traveling, watching youtube, movies, series, and photography. I also
-        enjoy <span className="font-medium">researching new things</span> that I
-        happened to come upon while watching something. I am currently learning
-        about{" "}
-        <span className="font-medium">space exploration🚀 and watches⌚</span>.
+        I am passionate about{" "}
+        <span className="font-medium">
+          building resilient, automated systems
+        </span>{" "}
+        and translating complex user and business requirements into reliable
+        software products. I am actively seeking{" "}
+        <span className="font-medium">
+          DevOps, Cloud, QA Automation, and Software Engineering opportunities
+          in Finland and across Europe
+        </span>
+        . Outside of engineering, I enjoy travel, photography, exploring
+        emerging technologies,{" "}
+        <span className="font-medium">space exploration🚀 and horology⌚</span>.
       </p>
     </motion.section>
   );
