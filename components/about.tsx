@@ -22,7 +22,7 @@ export default function About() {
         I am currently pursuing an{" "}
         <span className="font-medium">
           MSc (Tech) in Software Product Management and Business at LUT
-          University (Lahti Campus, Finland, Aug 2026 - Jul 2028)
+          University (Finland, Aug 2026 - Jul 2028)
         </span>
         , building on my{" "}
         <span className="font-medium">
@@ -62,7 +62,7 @@ export default function About() {
         software products. I am actively seeking{" "}
         <span className="font-medium">
           DevOps, Cloud, QA Automation, and Software Engineering opportunities
-          in Finland and across Europe
+          in Finland and across the EU
         </span>
         . Outside of engineering, I enjoy travel, photography, exploring
         emerging technologies,{" "}

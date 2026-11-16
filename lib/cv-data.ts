@@ -60,14 +60,14 @@ export const cvProfile = {
   name: "Sowmik Shovon Karmakar",
   headline:
     "Cloud, DevSecOps & QA Automation Engineer | MSc @ LUT University",
-  location: "Lahti / Helsinki, Finland · Open to Europe",
+  location: "Tampere, Finland · Open to Finland & EU",
   availability:
     "MSc @ LUT University (Aug 2026 - Jul 2028) · Open to Finland & EU Roles",
   email: "sowmikshovon@gmail.com",
   linkedin: "https://linkedin.com/in/sowmikshovon",
   github: "https://github.com/sowmikshovon",
   summary:
-    "Software, Cloud, DevSecOps, and QA Automation Engineer currently pursuing an MSc (Tech) in Software Product Management and Business at LUT University (Lahti Campus, Finland, Aug 2026 - Jul 2028), building on an MSc in Computer Science (PMSCS) at Jahangirnagar University, a BSc in Computer Science at BRAC University, and QA Automation experience at A1QA. Focused on Azure AKS/Terraform IaC, CI/CD security pipelines, automated test frameworks, and full-stack TypeScript products for teams in Finland and across Europe.",
+    "Software, Cloud, DevSecOps, and QA Automation Engineer currently pursuing an MSc (Tech) in Software Product Management and Business at LUT University (Finland, Aug 2026 - Jul 2028), building on an MSc in Computer Science (PMSCS) at Jahangirnagar University, a BSc in Computer Science at BRAC University, and QA Automation experience at A1QA. Focused on Azure AKS/Terraform IaC, CI/CD security pipelines, automated test frameworks, and full-stack TypeScript products for teams in Finland and across the EU.",
   coreCompetencies: [
     "Cloud & IaC (Terraform, Azure AKS, AWS, Docker, Kubernetes)",
     "DevSecOps & CI/CD (GitHub Actions, Jenkins, ArgoCD, SonarQube, Trivy)",

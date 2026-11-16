@@ -90,17 +90,17 @@ export const educationData = [
   },
   {
     title: "MSc in Software Product Management and Business",
-    location: "LUT University, Lahti Campus, Finland",
+    location: "LUT University, Finland",
     description:
-      "Currently pursuing a Master of Science (Technology) in Software Product Management and Business at LUT University, Lahti Campus, Finland.",
+      "Currently pursuing a Master of Science (Technology) in Software Product Management and Business at LUT University, Finland.",
     icon: React.createElement(LuGraduationCap),
     date: "Aug 2026 - Jul 2028",
   },
   {
     title: "Looking for a fulltime Job",
-    location: "Lahti / Helsinki, Finland & Europe",
+    location: "Finland & EU",
     description:
-      "Actively seeking Software, DevOps, Cloud, and QA Automation roles in Finland and across Europe.",
+      "Actively seeking Software, DevOps, Cloud, and QA Automation roles in Finland and across the EU.",
     icon: React.createElement(CgWorkAlt),
     date: "2026 - Present",
   },

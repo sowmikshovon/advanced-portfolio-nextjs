@@ -35,7 +35,7 @@ export default function Intro() {
         className="mb-6 inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/80 px-4 py-1.5 text-xs font-medium text-gray-700 shadow-sm backdrop-blur-md dark:border-white/15 dark:bg-white/10 dark:text-gray-200"
       >
         <span className="h-2 w-2 rounded-full bg-emerald-500" />
-        MSc @ LUT University (Lahti, Finland) · Open to Finland &amp; EU Roles
+        Tampere, Finland · MSc @ LUT University · Open to Finland &amp; EU Roles
       </motion.div>
 
       <div className="flex items-center justify-center">
